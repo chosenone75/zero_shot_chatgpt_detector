@@ -2,7 +2,7 @@ import openai
 from collections import defaultdict
 import pickle
 from tqdm import tqdm
-openai.api_key = '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'
+openai.api_key = ''
 
 from zero_shot_chatgpt_detector import chatgpt_detector
 
