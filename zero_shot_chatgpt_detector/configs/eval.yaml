@@ -1,0 +1,14 @@
+evaluation:
+  method: likelihood
+  num_samples: 50
+  num_few_shot: 3
+  model:
+    name: GPT_forward
+    batch_size: 500
+    gpt_config:
+      model: text-davinci-002
+      temperature: 0.7
+      max_tokens: 5000
+      top_p: 1.0
+      frequency_penalty: 0.0
+      presence_penalty: 0.0
